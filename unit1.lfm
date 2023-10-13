@@ -1,0 +1,2563 @@
+object Form1: TForm1
+  Left = 350
+  Height = 744
+  Top = 250
+  Width = 1216
+  Caption = 'Form1'
+  ClientHeight = 744
+  ClientWidth = 1216
+  OnCreate = FormCreate
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 368
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 350
+    Top = 8
+    Width = 350
+    OnChange = Memo1Change
+    TabOrder = 1
+  end
+  object Image1: TImage
+    Left = 416
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image2: TImage
+    Left = 448
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image3: TImage
+    Left = 480
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image4: TImage
+    Left = 512
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image5: TImage
+    Left = 544
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image6: TImage
+    Left = 576
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image7: TImage
+    Left = 608
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image8: TImage
+    Left = 640
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image9: TImage
+    Left = 672
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image10: TImage
+    Left = 704
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image11: TImage
+    Left = 736
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image12: TImage
+    Left = 768
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image13: TImage
+    Left = 800
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image14: TImage
+    Left = 832
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image15: TImage
+    Left = 864
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image16: TImage
+    Left = 896
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image17: TImage
+    Left = 928
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image18: TImage
+    Left = 960
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image19: TImage
+    Left = 992
+    Height = 32
+    Top = 8
+    Width = 32
+    Stretch = True
+  end
+  object Image20: TImage
+    Left = 416
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image21: TImage
+    Left = 448
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image22: TImage
+    Left = 480
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image23: TImage
+    Left = 512
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image24: TImage
+    Left = 544
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image25: TImage
+    Left = 576
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image26: TImage
+    Left = 608
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image27: TImage
+    Left = 640
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image28: TImage
+    Left = 672
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image29: TImage
+    Left = 704
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image30: TImage
+    Left = 736
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image31: TImage
+    Left = 768
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image32: TImage
+    Left = 800
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image33: TImage
+    Left = 832
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image34: TImage
+    Left = 864
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image35: TImage
+    Left = 896
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image36: TImage
+    Left = 928
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image37: TImage
+    Left = 960
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image38: TImage
+    Left = 992
+    Height = 32
+    Top = 40
+    Width = 32
+    Stretch = True
+  end
+  object Image39: TImage
+    Left = 416
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image40: TImage
+    Left = 448
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image41: TImage
+    Left = 480
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image42: TImage
+    Left = 512
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image43: TImage
+    Left = 544
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image44: TImage
+    Left = 576
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image45: TImage
+    Left = 608
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image46: TImage
+    Left = 640
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image47: TImage
+    Left = 672
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image48: TImage
+    Left = 704
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image49: TImage
+    Left = 736
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image50: TImage
+    Left = 768
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image51: TImage
+    Left = 800
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image52: TImage
+    Left = 832
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image53: TImage
+    Left = 864
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image54: TImage
+    Left = 896
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image55: TImage
+    Left = 928
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image56: TImage
+    Left = 960
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image57: TImage
+    Left = 992
+    Height = 32
+    Top = 72
+    Width = 32
+    Stretch = True
+  end
+  object Image58: TImage
+    Left = 416
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image59: TImage
+    Left = 448
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image60: TImage
+    Left = 480
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image61: TImage
+    Left = 512
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image62: TImage
+    Left = 544
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image63: TImage
+    Left = 576
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image64: TImage
+    Left = 608
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image65: TImage
+    Left = 640
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image66: TImage
+    Left = 672
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image67: TImage
+    Left = 704
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image68: TImage
+    Left = 736
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image69: TImage
+    Left = 768
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image70: TImage
+    Left = 800
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image71: TImage
+    Left = 832
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image72: TImage
+    Left = 864
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image73: TImage
+    Left = 896
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image74: TImage
+    Left = 928
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image75: TImage
+    Left = 960
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image76: TImage
+    Left = 992
+    Height = 32
+    Top = 104
+    Width = 32
+    Stretch = True
+  end
+  object Image77: TImage
+    Left = 416
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image78: TImage
+    Left = 448
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image79: TImage
+    Left = 480
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image80: TImage
+    Left = 512
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image81: TImage
+    Left = 544
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image82: TImage
+    Left = 576
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image83: TImage
+    Left = 608
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image84: TImage
+    Left = 640
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image85: TImage
+    Left = 672
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image86: TImage
+    Left = 704
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image87: TImage
+    Left = 736
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image88: TImage
+    Left = 768
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image89: TImage
+    Left = 800
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image90: TImage
+    Left = 832
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image91: TImage
+    Left = 864
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image92: TImage
+    Left = 896
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image93: TImage
+    Left = 928
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image94: TImage
+    Left = 960
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image95: TImage
+    Left = 992
+    Height = 32
+    Top = 136
+    Width = 32
+    Stretch = True
+  end
+  object Image96: TImage
+    Left = 416
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image97: TImage
+    Left = 448
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image98: TImage
+    Left = 480
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image99: TImage
+    Left = 512
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image100: TImage
+    Left = 544
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image101: TImage
+    Left = 576
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image102: TImage
+    Left = 608
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image103: TImage
+    Left = 640
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image104: TImage
+    Left = 672
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image105: TImage
+    Left = 704
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image106: TImage
+    Left = 736
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image107: TImage
+    Left = 768
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image108: TImage
+    Left = 800
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image109: TImage
+    Left = 832
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image110: TImage
+    Left = 864
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image111: TImage
+    Left = 896
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image112: TImage
+    Left = 928
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image113: TImage
+    Left = 960
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image114: TImage
+    Left = 992
+    Height = 32
+    Top = 168
+    Width = 32
+    Stretch = True
+  end
+  object Image115: TImage
+    Left = 416
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image116: TImage
+    Left = 448
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image117: TImage
+    Left = 480
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image118: TImage
+    Left = 512
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image119: TImage
+    Left = 544
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image120: TImage
+    Left = 576
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image121: TImage
+    Left = 608
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image122: TImage
+    Left = 640
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image123: TImage
+    Left = 672
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image124: TImage
+    Left = 704
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image125: TImage
+    Left = 736
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image126: TImage
+    Left = 768
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image127: TImage
+    Left = 800
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image128: TImage
+    Left = 832
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image129: TImage
+    Left = 864
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image130: TImage
+    Left = 896
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image131: TImage
+    Left = 928
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image132: TImage
+    Left = 960
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image133: TImage
+    Left = 992
+    Height = 32
+    Top = 200
+    Width = 32
+    Stretch = True
+  end
+  object Image134: TImage
+    Left = 416
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image135: TImage
+    Left = 448
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image136: TImage
+    Left = 480
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image137: TImage
+    Left = 512
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image138: TImage
+    Left = 544
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image139: TImage
+    Left = 576
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image140: TImage
+    Left = 608
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image141: TImage
+    Left = 640
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image142: TImage
+    Left = 672
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image143: TImage
+    Left = 704
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image144: TImage
+    Left = 736
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image145: TImage
+    Left = 768
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image146: TImage
+    Left = 800
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image147: TImage
+    Left = 832
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image148: TImage
+    Left = 864
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image149: TImage
+    Left = 896
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image150: TImage
+    Left = 928
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image151: TImage
+    Left = 960
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image152: TImage
+    Left = 992
+    Height = 32
+    Top = 232
+    Width = 32
+    Stretch = True
+  end
+  object Image153: TImage
+    Left = 416
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image154: TImage
+    Left = 448
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image155: TImage
+    Left = 480
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image156: TImage
+    Left = 512
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image157: TImage
+    Left = 544
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image158: TImage
+    Left = 576
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image159: TImage
+    Left = 608
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image160: TImage
+    Left = 640
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image161: TImage
+    Left = 672
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image162: TImage
+    Left = 704
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image163: TImage
+    Left = 736
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image164: TImage
+    Left = 768
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image165: TImage
+    Left = 800
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image166: TImage
+    Left = 832
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image167: TImage
+    Left = 864
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image168: TImage
+    Left = 896
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image169: TImage
+    Left = 928
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image170: TImage
+    Left = 960
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image171: TImage
+    Left = 992
+    Height = 32
+    Top = 264
+    Width = 32
+    Stretch = True
+  end
+  object Image172: TImage
+    Left = 416
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image173: TImage
+    Left = 448
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image174: TImage
+    Left = 480
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image175: TImage
+    Left = 512
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image176: TImage
+    Left = 544
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image177: TImage
+    Left = 576
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image178: TImage
+    Left = 608
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image179: TImage
+    Left = 640
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image180: TImage
+    Left = 672
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image181: TImage
+    Left = 704
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image182: TImage
+    Left = 736
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image183: TImage
+    Left = 768
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image184: TImage
+    Left = 800
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image185: TImage
+    Left = 832
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image186: TImage
+    Left = 864
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image187: TImage
+    Left = 896
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image188: TImage
+    Left = 928
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image189: TImage
+    Left = 960
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image190: TImage
+    Left = 992
+    Height = 32
+    Top = 296
+    Width = 32
+    Stretch = True
+  end
+  object Image191: TImage
+    Left = 416
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image192: TImage
+    Left = 448
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image193: TImage
+    Left = 480
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image194: TImage
+    Left = 512
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image195: TImage
+    Left = 544
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image196: TImage
+    Left = 576
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image197: TImage
+    Left = 608
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image198: TImage
+    Left = 640
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image199: TImage
+    Left = 672
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image200: TImage
+    Left = 704
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image201: TImage
+    Left = 736
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image202: TImage
+    Left = 768
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image203: TImage
+    Left = 800
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image204: TImage
+    Left = 832
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image205: TImage
+    Left = 864
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image206: TImage
+    Left = 896
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image207: TImage
+    Left = 928
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image208: TImage
+    Left = 960
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image209: TImage
+    Left = 992
+    Height = 32
+    Top = 328
+    Width = 32
+    Stretch = True
+  end
+  object Image210: TImage
+    Left = 416
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image211: TImage
+    Left = 448
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image212: TImage
+    Left = 480
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image213: TImage
+    Left = 512
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image214: TImage
+    Left = 544
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image215: TImage
+    Left = 576
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image216: TImage
+    Left = 608
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image217: TImage
+    Left = 640
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image218: TImage
+    Left = 672
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image219: TImage
+    Left = 704
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image220: TImage
+    Left = 736
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image221: TImage
+    Left = 768
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image222: TImage
+    Left = 800
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image223: TImage
+    Left = 832
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image224: TImage
+    Left = 864
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image225: TImage
+    Left = 896
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image226: TImage
+    Left = 928
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image227: TImage
+    Left = 960
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image228: TImage
+    Left = 992
+    Height = 32
+    Top = 360
+    Width = 32
+    Stretch = True
+  end
+  object Image229: TImage
+    Left = 416
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image230: TImage
+    Left = 448
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image231: TImage
+    Left = 480
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image232: TImage
+    Left = 512
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image233: TImage
+    Left = 544
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image234: TImage
+    Left = 576
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image235: TImage
+    Left = 608
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image236: TImage
+    Left = 640
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image237: TImage
+    Left = 672
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image238: TImage
+    Left = 704
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image239: TImage
+    Left = 736
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image240: TImage
+    Left = 768
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image241: TImage
+    Left = 800
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image242: TImage
+    Left = 832
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image243: TImage
+    Left = 864
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image244: TImage
+    Left = 896
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image245: TImage
+    Left = 928
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image246: TImage
+    Left = 960
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image247: TImage
+    Left = 992
+    Height = 32
+    Top = 392
+    Width = 32
+    Stretch = True
+  end
+  object Image248: TImage
+    Left = 416
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image249: TImage
+    Left = 448
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image250: TImage
+    Left = 480
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image251: TImage
+    Left = 512
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image252: TImage
+    Left = 544
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image253: TImage
+    Left = 576
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image254: TImage
+    Left = 608
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image255: TImage
+    Left = 640
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image256: TImage
+    Left = 672
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image257: TImage
+    Left = 704
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image258: TImage
+    Left = 736
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image259: TImage
+    Left = 768
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image260: TImage
+    Left = 800
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image261: TImage
+    Left = 832
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image262: TImage
+    Left = 864
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image263: TImage
+    Left = 896
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image264: TImage
+    Left = 928
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image265: TImage
+    Left = 960
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image266: TImage
+    Left = 992
+    Height = 32
+    Top = 424
+    Width = 32
+    Stretch = True
+  end
+  object Image267: TImage
+    Left = 416
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image268: TImage
+    Left = 448
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image269: TImage
+    Left = 480
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image270: TImage
+    Left = 512
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image271: TImage
+    Left = 544
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image272: TImage
+    Left = 576
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image273: TImage
+    Left = 608
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image274: TImage
+    Left = 640
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image275: TImage
+    Left = 672
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image276: TImage
+    Left = 704
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image277: TImage
+    Left = 736
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image278: TImage
+    Left = 768
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image279: TImage
+    Left = 800
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image280: TImage
+    Left = 832
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image281: TImage
+    Left = 864
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image282: TImage
+    Left = 896
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image283: TImage
+    Left = 928
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image284: TImage
+    Left = 960
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image285: TImage
+    Left = 992
+    Height = 32
+    Top = 456
+    Width = 32
+    Stretch = True
+  end
+  object Image286: TImage
+    Left = 416
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image287: TImage
+    Left = 448
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image288: TImage
+    Left = 480
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image289: TImage
+    Left = 512
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image290: TImage
+    Left = 544
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image291: TImage
+    Left = 576
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image292: TImage
+    Left = 608
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image293: TImage
+    Left = 640
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image294: TImage
+    Left = 672
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image295: TImage
+    Left = 704
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image296: TImage
+    Left = 736
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image297: TImage
+    Left = 768
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image298: TImage
+    Left = 800
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image299: TImage
+    Left = 832
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image300: TImage
+    Left = 864
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image301: TImage
+    Left = 896
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image302: TImage
+    Left = 928
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image303: TImage
+    Left = 960
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image304: TImage
+    Left = 992
+    Height = 32
+    Top = 488
+    Width = 32
+    Stretch = True
+  end
+  object Image305: TImage
+    Left = 416
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image306: TImage
+    Left = 448
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image307: TImage
+    Left = 480
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image308: TImage
+    Left = 512
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image309: TImage
+    Left = 544
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image310: TImage
+    Left = 576
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image311: TImage
+    Left = 608
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image312: TImage
+    Left = 640
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image313: TImage
+    Left = 672
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image314: TImage
+    Left = 704
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image315: TImage
+    Left = 736
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image316: TImage
+    Left = 768
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image317: TImage
+    Left = 800
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image318: TImage
+    Left = 832
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image319: TImage
+    Left = 864
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image320: TImage
+    Left = 896
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image321: TImage
+    Left = 928
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image322: TImage
+    Left = 960
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image323: TImage
+    Left = 992
+    Height = 32
+    Top = 520
+    Width = 32
+    Stretch = True
+  end
+  object Image324: TImage
+    Left = 416
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image325: TImage
+    Left = 448
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image326: TImage
+    Left = 480
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image327: TImage
+    Left = 512
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image328: TImage
+    Left = 544
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image329: TImage
+    Left = 576
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image330: TImage
+    Left = 608
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image331: TImage
+    Left = 640
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image332: TImage
+    Left = 672
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image333: TImage
+    Left = 704
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image334: TImage
+    Left = 736
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image335: TImage
+    Left = 768
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image336: TImage
+    Left = 800
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image337: TImage
+    Left = 832
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image338: TImage
+    Left = 864
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image339: TImage
+    Left = 896
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image340: TImage
+    Left = 928
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image341: TImage
+    Left = 960
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image342: TImage
+    Left = 992
+    Height = 32
+    Top = 552
+    Width = 32
+    Stretch = True
+  end
+  object Image343: TImage
+    Left = 416
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image344: TImage
+    Left = 448
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image345: TImage
+    Left = 480
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image346: TImage
+    Left = 512
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image347: TImage
+    Left = 544
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image348: TImage
+    Left = 576
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image349: TImage
+    Left = 608
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image350: TImage
+    Left = 640
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image351: TImage
+    Left = 672
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image352: TImage
+    Left = 704
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image353: TImage
+    Left = 736
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image354: TImage
+    Left = 768
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image355: TImage
+    Left = 800
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image356: TImage
+    Left = 832
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image357: TImage
+    Left = 864
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image358: TImage
+    Left = 896
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image359: TImage
+    Left = 928
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image360: TImage
+    Left = 960
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Image361: TImage
+    Left = 992
+    Height = 32
+    Top = 584
+    Width = 32
+    Stretch = True
+  end
+  object Button2: TButton
+    Left = 160
+    Height = 25
+    Top = 368
+    Width = 75
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+end
